@@ -1,0 +1,7 @@
+Game_name:新的11;
+Game_key:5e25dd1cb6c2da;
+Title_img:C0300F68B232A1E6FB83EEEF84BA8A71.jpg;
+Title_bgm:标题.mp3 -vocal= æè± Epiphyllum.mp3 -vocal= æè± Epiphyllum.mp3 -vocal= æè± Epiphyllum.mp3 -vocal= æè± Epiphyllum.mp3 -vocal= æè± Epiphyllum.mp3 -vocal= æè± Epiphyllum.mp3;
+Textbox_theme:imss;
+Default_Language:zh_CN;
+Description:;

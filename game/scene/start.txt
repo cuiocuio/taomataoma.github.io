@@ -1,0 +1,22 @@
+getUserInput:n -title=怎么称呼你呀 -buttonText=OK;
+bgm:日常.mp3 -volume=50;
+changeBg:37E11F780725136EA888F58B465CB8BB.png;
+:这是一个正常到再正常不过的早晨， 迷迷糊糊的我从刚睡梦中醒来;
+:。。。。。。 -notend;
+setAnimation:shake -target=bg-main;
+:怎么感觉身后有人在摸我。。。。。。;
+:。。。。。。。。 -notend;
+setAnimation:shake -target=bg-main;
+:|。。。。。。。。。。。。 -concat -notend;
+setAnimation:shake -target=bg-main;
+:翻个身看看后面是不是有什么东西硌到我了吧;
+bgm:搞笑.mp3 -volume=50;
+changeBg:0BC060EE8E03634B1F6F29F58391534A.png -next -transform={} -unlockname=初见;
+:;
+:。。。。。。;
+:|。。。。。。。 -concat;
+:逆天。。。。。。;
+changeBg:BBC0EAD18CBCF4FE35573D5B4962D8E6.png -next;
+setAnimation:shake -target=bg-main -next;
+:？！！！你要干嘛？！ -notend;
+changeScene:2.txt

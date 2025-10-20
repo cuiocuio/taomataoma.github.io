@@ -1,0 +1,11 @@
+
+changeBg:3e233f324b4a2e15c02882abb812c40e.jpg;
+changeFigure:7.png -next -animationFlag=on;
+:你TM谁啊？为什么会大早上跑到我床上来？！！;
+miniAvatar:正常站立.png;
+？？？:年轻人，你先不要生气，听我解释一下;
+changeFigure:双手叉腰轻松.png -next;
+？？？:我是沙湖的湖神，沙湖的掌管者。;
+miniAvatar:none;
+:？你脑子出问题了？;
+changeScene:3.txt

@@ -1,0 +1,33 @@
+
+changeBg:3ec22f7a7532c4af3eeec93fcab50032.jpg -next -duration=1;
+changeFigure:双手叉腰轻松.png -next;
+miniAvatar:双手叉腰轻松.png;
+bgm:轻松诙谐.mp3 -volume=50;
+沙湖の神:怎么样，我就说咱们签订过契约的吧;
+miniAvatar:none;
+setAnimation:move-front-and-back -target=bg-main -next;
+:你那根本就是诈骗好吧！;
+: -notend;
+bgm:不安.mp3;
+setAnimation:dotFilm -target=bg-main;
+changeFigure:认真，生气.png -next;
+miniAvatar:认真，生气.png;
+沙湖の神:等等。。。不对劲！;
+changeFigure:小兵.png -left -next;
+沙湖の神:|快趴下！ -concat;
+miniAvatar:none;
+:一切发生的有点太快，他突然把我推开，用身体帮我挡下了攻击 -notend;
+playEffect:击打.mp3;
+setAnimation:glitchFilm -target=fig-center;
+miniAvatar:none;
+沙湖の神:呃↓啊→↑！;
+沙湖の神:区区配角也敢在我面前放肆！跪下！;
+playEffect:魔法攻击.mp3;
+setAnimation:shockwaveOut -target=fig-left;
+沙湖の神:快走！;
+miniAvatar:none;
+changeFigure:none -next;
+: -notend;
+changeBg:none -next;
+intro:眼前发生的一切都是我活这么多年还从来没见过的|接着就莫名其妙被他拉着逃离了现场 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeScene:7.txt
