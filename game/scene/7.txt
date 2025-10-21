@@ -7,7 +7,7 @@ changeBg:F5744EEB58AE4E5ADB7399949679E2DC.png -next -unlockname=一起读书;
 :|对不。。。。。。 -concat;
 bgm:半个夏天.mp3;
 : -notend;
-changeBg:00D124F82AD124D51996DDC24A595553.png;
+changeBg:00D124F82AD124D51996DDC24A595553.png -next;
 :正在我准备向他说对不起时，原本在看书的他突然把书放下来，很认真的看着我;
 intro:他眼底像盛着一汪深潭，怜爱泛着涟漪，无奈沉淀成墨色，同情浮作薄雾，层层叠叠漫过瞳孔的岸。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
 :所以说，可以告诉我真相吗？;
