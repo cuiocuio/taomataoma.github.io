@@ -66,7 +66,7 @@ setAnimation:shake -next -target=fig-center;
 :这什么东西;
 changeFigure:双手合拢，谈论.png -next;
 miniAvatar:双手合拢，谈论.png;
-沙湖の神:这就是最终boss哈宝子（替作者说的）;
+沙湖の神:这就是boss哈宝子（替作者说的）;
 changeFigure:认真，生气.png -next;
 miniAvatar:认真，生气.png;
 沙湖の神:总之你快走，我来拖住他;

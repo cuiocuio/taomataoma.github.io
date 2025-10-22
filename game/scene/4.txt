@@ -5,7 +5,7 @@ changeBg:8E4D7A712B62266325E9885CA3BDCBB9.jpg;
 changeBg:3ec22f7a7532c4af3eeec93fcab50032.jpg -next;
 changeFigure:双手伸出，自信.png -next;
 :你到底TM有什么事？为什么老是跟着我！！！;
-bgm:奇谭­.mp3;
+bgm:奇谭­.mp3 -volume=50;
 changeFigure:双手合拢，谈论.png -next;
 miniAvatar:双手合拢，谈论.png;
 沙湖の神:到了如今这个地步，我就把所有真相都告诉你吧—— ;

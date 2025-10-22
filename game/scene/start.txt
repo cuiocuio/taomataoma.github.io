@@ -1,7 +1,8 @@
-intro:本游戏剧情纯属虚构|剧中人物与情节均与现实无关|好好享受吧~ -hold -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:本游戏剧情纯属虚构|剧中人物与情节均与现实无关 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:好好享受吧~ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 getUserInput:n -title=怎么称呼你呀 -buttonText=OK;
 bgm:日常.mp3 -volume=50;
-changeBg:37E11F780725136EA888F58B465CB8BB.png;
+changeBg:37E11F780725136EA888F58B465CB8BB.png -next;
 :这是一个正常到再正常不过的早晨， 迷迷糊糊的我从刚睡梦中醒来;
 :。。。。。。 -notend;
 setAnimation:shake -target=bg-main;

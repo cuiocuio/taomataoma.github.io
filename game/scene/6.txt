@@ -8,7 +8,7 @@ miniAvatar:none;
 setAnimation:move-front-and-back -target=bg-main -next;
 :你那根本就是诈骗好吧！;
 : -notend;
-bgm:不安.mp3;
+bgm:不安.mp3 -volume=50;
 setAnimation:dotFilm -target=bg-main;
 changeFigure:认真，生气.png -next;
 miniAvatar:认真，生气.png;
