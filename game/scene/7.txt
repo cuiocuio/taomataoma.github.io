@@ -71,4 +71,4 @@ changeFigure:认真，生气.png -next;
 miniAvatar:认真，生气.png;
 沙湖の神:总之你快走，我来拖住他;
 bgm:选择背景音乐;
-choose:不行，我不能丢下你！:不抛弃.txt|好吧，你多保重:思考后决定.txt;
+choose:不行，我不能丢下你！:不抛弃.txt|好吧，你多保重:badend.txt;
