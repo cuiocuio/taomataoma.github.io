@@ -16,10 +16,13 @@ intro:跑了好久好久，一直跑到沙湖这里才停下来 -hold -userForwa
 :甩掉。。。。。。他们了吗;
 playEffect:打雷声.mp3;
 :天空突然变得灰暗，一阵雷声过后，开始下起雨了;
+pixiInit;
 pixiPerform:rain;
 :一切。。。。。。都结束了吗;
 :一切。。。。。。都结束了吧;
 :那他怎么样了。。。。。。;
+changeBg: -next;
+setTextbox:hide;
 intro:劫后余生，惊魂未定的我还站在雨中 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:偌大的沙湖公园，只有我一个人 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:一个人逛公园也挺有感觉的，尤其是下雨天 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
@@ -32,3 +35,4 @@ intro:但应该做不成朋友吧，我们 -hold -userForward -fontSize=medium -
 intro:真可怜呢，他这个人 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=2000;
 intro:虽然我也挺可怜的 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=2000;
 intro:完|？ -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=pixelateEffect -delayTime=1500;
+pixiInit:;
