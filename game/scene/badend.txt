@@ -23,7 +23,7 @@ pixiPerform:rain;
 :那他怎么样了。。。。。。;
 changeBg: -next;
 setTextbox:hide;
-intro:劫后余生，惊魂未定的我还站在雨中 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:逃过一劫的茫然裹着我，心还在胸腔里狂跳，我就这么立在雨幕中，连雨丝浇透衣服都没察觉 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:偌大的沙湖公园，只有我一个人 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:一个人逛公园也挺有感觉的，尤其是下雨天 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
 intro:毕竟本来就是一个人，也没什么好怅惘的 -hold -userForward -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
