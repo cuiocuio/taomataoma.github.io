@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="沙湖神大人求包养，一部基于 WebGAL 的中文互动视觉小说。" />
+    <meta name="theme-color" content="#111827" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="沙湖神大人求包养" />
+    <meta property="og:description" content="一部基于 WebGAL 的中文互动视觉小说。" />
+    <meta property="og:url" content="https://taoma.cuio.asia/" />
     <link rel="icon" type="image/x-icon" href="./icons/favicon.ico" />
     <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
     <link rel="manifest" href="./manifest.json" />
-    <title>WebGAL</title>
+    <title>沙湖神大人求包养 | 互动视觉小说</title>
     <style>
       .html-body__effect-background {
         height: 100vh;
@@ -111,11 +118,34 @@
       .title-enter-container__link-to-github > div {
         padding: 0 0 0.25em 0;
       }
+
+      .local-file-warning {
+        display: none;
+        position: fixed;
+        inset: 0;
+        z-index: 100;
+        box-sizing: border-box;
+        padding: 12vh 8vw;
+        background: #111827;
+        color: #f9fafb;
+        font: 18px/1.7 system-ui, sans-serif;
+        text-align: center;
+      }
+
+      .local-file-warning strong {
+        display: block;
+        margin-bottom: 1em;
+        font-size: 26px;
+      }
     </style>
     <script type="module" crossorigin src="./assets/index-1889d526.js"></script>
     <link rel="stylesheet" href="./assets/index-52a967b4.css">
   </head>
   <body>
+    <div class="local-file-warning" id="local-file-warning">
+      <strong>Please start the game with a local server.</strong>
+      Double-click <code>启动游戏.bat</code> in this folder, then open the address it shows.
+    </div>
     <!-- 背景模糊 -->
     <div class="html-body__effect-background"></div>
     <!-- 落地页 -->
@@ -124,10 +154,10 @@
       <div class="title-enter__white-background"></div>
       <div class="title-enter__container">
         <div class="title-enter-container__center-text">
-          <div>PRESS THE SCREEN TO START</div>
+          <div>点击屏幕开始 · PRESS THE SCREEN TO START</div>
         </div>
         <div class="title-enter-container__link-to-github">
-          <div>Powered by <a> WebGAL </a> Framework</div>
+          <div>Powered by <a href="https://github.com/OpenWebGAL/WebGAL" target="_blank" rel="noreferrer">WebGAL</a> Framework</div>
         </div>
       </div>
     </div>
@@ -135,9 +165,15 @@
     <div id="html-body__panic-overlay"></div>
     <!-- 应用挂载点 -->
     <div id="root"></div>
+    <noscript>本作品需要启用 JavaScript 才能运行。</noscript>
     <!-- 在窗口大小改变时进行强制缩放 -->
     <script>
       (() => {
+        if (location.protocol === 'file:') {
+          const warning = document.querySelector('#local-file-warning');
+          if (warning) warning.style.display = 'block';
+          return;
+        }
         const isIOS = !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
         const resize = () => {
           const targetHeight = 1440; // 目标高度

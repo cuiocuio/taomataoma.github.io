@@ -1,0 +1,10 @@
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# Local preview output
+*.log
+coverage/
+dist/

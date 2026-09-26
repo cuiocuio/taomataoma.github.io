@@ -1,9 +1,10 @@
 {
   "name": "沙湖神大人求包养",
   "short_name": "沙湖神大人求包养",
-  "start_url": ".",
+  "start_url": "./",
+  "scope": "./",
   "display": "fullscreen",
-  "description": "请勿当真",
+  "description": "沙湖神大人求包养，一部基于 WebGAL 的中文互动视觉小说。",
   "dir": "auto",
   "orientation": "landscape",
   "icons": [

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taoma.cuio.asia/sitemap.xml
